@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin-top: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 45px;
+  background: linear-gradient(
+    112deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.7959558823529411) 45%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+#todo-submit {
+  padding: 22px;
+  border: 0;
+  background-color: #2979ff;
+  color: white;
+  border-radius: 10px;
+  width: 18%;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+#todo-input {
+  width: 80%;
+  border: 2px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#todo-list {
+  margin-top: 5px;
+  align-items: center;
+  padding: 15px 0;
+}
+span {
+  font-size: 25px;
+  font-weight: 300;
+  color: #333;
+  display: inline-block;
+  padding-right: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  width: 820px;
+}
+
+.buttonDelete {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+.buttonDelete:hover {
+  background-color: #d80909;
+  color: white;
+  transition: 0.2s;
+}
+
+.buttonEdit {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+.buttonEdit:hover {
+  background-color: #3e76ee;
+  color: white;
+  transition: 0.2s;
+}
+#check {
+  text-decoration: line-through;
+}
